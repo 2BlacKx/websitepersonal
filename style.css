@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;700;900&family=Prompt:ital,wght@1,200&family=Roboto:wght@700&display=swap');
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 1rem;
+    background-color: #000;
+    filter: blur(100);
+    opacity: 0.85;
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-size: 3rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+}
+
+.menu {
+    font-size: 1.5rem;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li {
+    margin: 0 2rem;
+}
+
+.menu li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+}
+
+.hero-con {
+    display: flex;
+    background-color: #e5e5e5;
+}
+
+.hero-img {
+    width: 100%;
+    padding: 2rem;
+    user-select: none;
+}
+
+.hero-info {
+    width: 100%;
+    padding: 2rem;
+    font-family: 'Kanit', sans-serif;
+}
+
+.hero-info h3 {
+    font-size: 2rem;
+}
+
+.hero-info p {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    color: #534d4d;
+}
+
+.hero-info .hero-btn {
+    display: inline-block;
+    background-color: #4b4b4b;
+    color: #ffffff;
+    padding: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: #000;
+}
+
+.blog-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+    background-color: #e5e5e5;
+    filter: blur(50);
+    padding: 50px;
+}
+
+.blog-item img {
+    user-select: none;
+    width: 100%;
+}
+
+.blog-title {
+    font-family: 'Kanit', sans-serif;
+    font-size: 3rem;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.blog-item h4 {
+    margin-top: 1rem;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5rem;
+}
+
+.blog-item p {
+    margin: 1rem 0;
+}
+
+.blog-item a {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #4b4b4b;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: #000;
+    margin-bottom: 20px;
+}
+
+.container2 {
+
+}
+
+.game-title h4{
+    font-family: 'Kanit', sans-serif;
+    font-size: 3rem;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.game-con {
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    place-items: center;
+    background-color: #e5e5e5;
+}
+
+.game-item {
+    margin: 2rem 0;
+}
+
+.game-item h6 {
+    font-size: 1.3rem;
+}
+
+.game-item p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Prompt', sans-serif;
+}
+
+.game-item img {
+    box-shadow: purple 1rem;
+    user-select: none;
+}
+
+.footer-top {
+    padding: 3rem;
+    margin-top: 1rem;
+    background-color: #333;
+    color: #ffffff;
+}
+
+.footer-top-con {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 2rem;
+}
+
+.footer-top-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-top-item h4 {
+    font-size: 2rem;
+    margin-bottom: 1rem 0;
+}
+
+.footer-top-item p {
+    font-size: 1.3rem;
+    color: white;
+    text-decoration: none;
+}
